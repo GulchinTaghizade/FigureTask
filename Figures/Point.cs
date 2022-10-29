@@ -1,6 +1,7 @@
 ﻿using System;
 namespace FigureApp
 {
+    [Serializable()]
     public class Point
     {
         public double CoordinateX { get; set; }

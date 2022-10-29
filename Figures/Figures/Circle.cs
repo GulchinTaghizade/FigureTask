@@ -1,6 +1,8 @@
 ﻿using System;
 namespace FigureApp
 {
+    [Serializable()]
+
     public class Circle : Figure
     {
         public double Radius { get; set; }
@@ -45,7 +47,7 @@ namespace FigureApp
         }
         public override string ToString()
         {
-            return $"{nameof(Circle)}\nRadius:{Radius}\nArea:{Area}\nPerimeter:{Perimeter}\nCenter:({Center.CoordinateX};{Center.CoordinateY})\n";
+            return $"{nameof(Circle)} Points: ({Points[0].CoordinateX},{Points[0].CoordinateY}),({Points[1].CoordinateX},{Points[1].CoordinateY})  Radius: {Radius} Area:{Area} Perimeter:{Perimeter} Center:({Center.CoordinateX};{Center.CoordinateY})\n";
         }
     }
 }

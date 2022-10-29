@@ -1,5 +1,6 @@
 ﻿namespace FigureApp
 {
+    [Serializable()]
     public abstract class Figure
     {
         public double Area { get; protected set; }

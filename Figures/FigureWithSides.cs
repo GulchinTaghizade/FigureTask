@@ -1,5 +1,6 @@
 ﻿namespace FigureApp
 {
+    [Serializable()]
     public abstract class FigureWithSides : Figure
     {
         public List<double> Sides { get; set; }

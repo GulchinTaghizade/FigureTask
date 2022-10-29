@@ -4,6 +4,8 @@ using System.Reflection.Metadata;
 
 namespace FigureApp
 {
+    [Serializable()]
+
     public class Square:FigureWithSides
     {
         public Square(List<Point> points, List<double> sides = null) : base()
@@ -33,7 +35,7 @@ namespace FigureApp
         }
         public override string ToString()
         {
-            return $"{nameof(Square)}\nSide:{Sides[0]}\nArea:{Area}\nPerimeter:{Perimeter}\nCenter:({Center.CoordinateX};{Center.CoordinateY})\n";
+            return $"{nameof(Square)} Points: ({Points[0].CoordinateX},{Points[0].CoordinateY}),({Points[1].CoordinateX},{Points[1].CoordinateY}),({Points[2].CoordinateX},{Points[2].CoordinateY}),({Points[3].CoordinateX},{Points[3].CoordinateY}) Sides: {Sides[0]}, {Sides[1]}, {Sides[2]} Area:{Area} Perimeter:{Perimeter} Center:({Center.CoordinateX};{Center.CoordinateY})\n";
         }
     }
 }

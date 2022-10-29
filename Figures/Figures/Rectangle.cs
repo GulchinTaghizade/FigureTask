@@ -5,6 +5,8 @@ using System.Security.Cryptography.X509Certificates;
 
 namespace FigureApp
 {
+    [Serializable()]
+
     public class Rectangle:FigureWithSides
     {
 
@@ -34,8 +36,10 @@ namespace FigureApp
         }
         public override string ToString()
         {
-            return $"{nameof(Rectangle)}\nSides:{Sides[0]},{Sides[1]}\nArea:{Area}\nPerimeter:{Perimeter}\nCenter:({Center.CoordinateX};{Center.CoordinateY})\n";
+            return $"{nameof(Rectangle)} Points:({Points[0].CoordinateX},{Points[0].CoordinateY}),({Points[1].CoordinateX},{Points[1].CoordinateY}),({Points[2].CoordinateX},{Points[2].CoordinateY}),({Points[3].CoordinateX},{Points[3].CoordinateY})  Sides: {Sides[0]}, {Sides[1]}, {Sides[2]} Area:{Area} Perimeter:{Perimeter} Center:({Center.CoordinateX};{Center.CoordinateY})\n";
+
         }
+
     }
 }
 

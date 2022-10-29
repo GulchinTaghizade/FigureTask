@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/gulchinnl/Desktop/ftask/Figures/FigureApp.csproj",
+      "projectUniqueName": "/Users/gulchinnl/Projects/FigureTask/Figures/FigureApp.csproj",
       "projectName": "Figures",
-      "projectPath": "/Users/gulchinnl/Desktop/ftask/Figures/FigureApp.csproj",
+      "projectPath": "/Users/gulchinnl/Projects/FigureTask/Figures/FigureApp.csproj",
       "packagesPath": "/Users/gulchinnl/.nuget/packages/",
-      "outputPath": "/Users/gulchinnl/Desktop/ftask/Figures/obj/",
+      "outputPath": "/Users/gulchinnl/Projects/FigureTask/Figures/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/gulchinnl/.nuget/NuGet/NuGet.Config"

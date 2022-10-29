@@ -1,6 +1,10 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using System.IO;
 using System.Runtime.CompilerServices;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.Text.Json;
 using FigureApp;
 using FigureApp.FigureFactory;
 
@@ -9,10 +13,11 @@ partial class Program
     const string path = @"../../../figure.txt";
     static int Main(string[] args)
     {
-        Initialize();
         Menu(Initialize());
         return 0;
     }
+
+
 
     static List<Figure> Initialize()
     {
@@ -76,7 +81,12 @@ partial class Program
         while (true)
         {
             Console.WriteLine("Please select one of the following number:");
-            Console.WriteLine("1) Show all figures\n2) Create a figure\n3) Change figure\n4) Write to file\n5) Read from file\n0) exit");
+            Console.WriteLine("1) Show all figures\n" +
+                "2) Create a figure\n" +
+                "3) Change figure\n" +
+                "4) Save to file\n" +
+                "5) Read from file\n" +
+                "0) exit");
             int choice = Convert.ToInt32(Console.ReadLine());
 
             switch (choice)
@@ -94,14 +104,9 @@ partial class Program
                 case 4:
                     SaveToFile(path, figlist);
                     break;
-
-                //case 5:
-                //    string txt;
-                //    while ((txt = sr.ReadLine()) != null)
-                //    {
-                //        Console.WriteLine(txt);
-                //    }
-                //    break;
+                case 5:
+                    ReadFromFile();
+                    break;
                 case 0:
                     SaveToFile(path,figlist);
                     Environment.Exit(0);
@@ -176,13 +181,56 @@ partial class Program
         }
     }
 
-    static void SaveToFile(string path, List<Figure> figlist)
+    static async void SaveToFile(string path, List<Figure> figlist)
     {
-        using var sw = new StreamWriter(path, true);
-        foreach (var line in figlist)
-        {
-            sw.WriteAsync(line.ToString());
-        }
+        //using var sw = new StreamWriter(path, true);
+        //foreach (var line in figlist)
+        //{
+        //    sw.WriteAsync(line.ToString());
+        //}
+
+        #region BinarySerialization
+        //Stream SaveFileStream = File.Create(path);
+        //BinaryFormatter serializer = new BinaryFormatter();
+        //serializer.Serialize(SaveFileStream, figlist);
+        //SaveFileStream.Close();
+        #endregion
+
+        #region JSONSerialization
+        //using FileStream createStream = File.Create(path);
+        //await JsonSerializer.SerializeAsync(createStream, figlist);
+        //await createStream.DisposeAsync();
+        #endregion
+
+    }
+
+    static List<Figure> ReadFromFile()
+    {
+        Console.WriteLine("Reading saved file");
+        List<Figure> figlist = new List<Figure>();
+        //using (var sr = new StreamReader(path))
+        //{
+        //    while (!sr.EndOfStream)
+        //    {
+        //        var line = sr.ReadLine();
+        //        Console.WriteLine(line);
+        //    }
+        //}
+
+        #region BinaryDeserialization
+        //Stream openFileStream = File.OpenRead(path);
+        //BinaryFormatter deserializer = new BinaryFormatter();
+        //List<Figure> figlist = (List<Figure>)deserializer.Deserialize(openFileStream);
+        //openFileStream.Close();
+        #endregion
+
+        #region JSONDeserialization
+        //using FileStream openStream = File.OpenRead(path);
+        //List<Figure>? figlist =
+        //    await JsonSerializer.DeserializeAsync<List<Figure>>(openStream);
+        #endregion
+
+        return figlist;
     }
 
 }
