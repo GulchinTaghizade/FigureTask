@@ -1,0 +1,15 @@
+/Users/gulchinnl/Projects/Figures/Figures/bin/Debug/net6.0/Figures
+/Users/gulchinnl/Projects/Figures/Figures/bin/Debug/net6.0/Figures.deps.json
+/Users/gulchinnl/Projects/Figures/Figures/bin/Debug/net6.0/Figures.runtimeconfig.json
+/Users/gulchinnl/Projects/Figures/Figures/bin/Debug/net6.0/Figures.dll
+/Users/gulchinnl/Projects/Figures/Figures/bin/Debug/net6.0/Figures.pdb
+/Users/gulchinnl/Projects/Figures/Figures/obj/Debug/net6.0/Figures.csproj.AssemblyReference.cache
+/Users/gulchinnl/Projects/Figures/Figures/obj/Debug/net6.0/Figures.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gulchinnl/Projects/Figures/Figures/obj/Debug/net6.0/Figures.AssemblyInfoInputs.cache
+/Users/gulchinnl/Projects/Figures/Figures/obj/Debug/net6.0/Figures.AssemblyInfo.cs
+/Users/gulchinnl/Projects/Figures/Figures/obj/Debug/net6.0/Figures.csproj.CoreCompileInputs.cache
+/Users/gulchinnl/Projects/Figures/Figures/obj/Debug/net6.0/Figures.dll
+/Users/gulchinnl/Projects/Figures/Figures/obj/Debug/net6.0/refint/Figures.dll
+/Users/gulchinnl/Projects/Figures/Figures/obj/Debug/net6.0/Figures.pdb
+/Users/gulchinnl/Projects/Figures/Figures/obj/Debug/net6.0/Figures.genruntimeconfig.cache
+/Users/gulchinnl/Projects/Figures/Figures/obj/Debug/net6.0/ref/Figures.dll

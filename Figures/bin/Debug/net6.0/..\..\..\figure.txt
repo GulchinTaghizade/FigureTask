@@ -1,0 +1,20 @@
+Square
+Side:5
+Area:25
+Perimeter:20
+Center:(2.5;2.5)
+Rectangle
+Sides:10,10.44030650891055
+Area:104.40306508910551
+Perimeter:35.05607961477446
+Center:(4.25;4.25)
+Triangle
+Sides: 3, 5, 4
+Area:6
+Perimeter:12
+Center:(1;1.3333333333333333)
+Circle
+Radius:10
+Area:314.1592653589793
+Perimeter:62.83185307179586
+Center:(0;5)

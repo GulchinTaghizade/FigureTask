@@ -1,0 +1,60 @@
+/Users/gulchinnl/Projects/Figures/Figures/obj/Debug/net6.0/FigureApp.csproj.AssemblyReference.cache
+/Users/gulchinnl/Projects/Figures/Figures/obj/Debug/net6.0/FigureApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gulchinnl/Projects/Figures/Figures/obj/Debug/net6.0/FigureApp.AssemblyInfoInputs.cache
+/Users/gulchinnl/Projects/Figures/Figures/obj/Debug/net6.0/FigureApp.AssemblyInfo.cs
+/Users/gulchinnl/Projects/Figures/Figures/obj/Debug/net6.0/FigureApp.csproj.CoreCompileInputs.cache
+/Users/gulchinnl/Projects/Figures/Figures/obj/Debug/net6.0/Figures.dll
+/Users/gulchinnl/Projects/Figures/Figures/obj/Debug/net6.0/refint/Figures.dll
+/Users/gulchinnl/Projects/Figures/Figures/obj/Debug/net6.0/Figures.pdb
+/Users/gulchinnl/Projects/Figures/Figures/bin/Debug/net6.0/Figures
+/Users/gulchinnl/Projects/Figures/Figures/bin/Debug/net6.0/Figures.deps.json
+/Users/gulchinnl/Projects/Figures/Figures/bin/Debug/net6.0/Figures.runtimeconfig.json
+/Users/gulchinnl/Projects/Figures/Figures/bin/Debug/net6.0/Figures.dll
+/Users/gulchinnl/Projects/Figures/Figures/bin/Debug/net6.0/Figures.pdb
+/Users/gulchinnl/Projects/Figures/Figures/obj/Debug/net6.0/FigureApp.genruntimeconfig.cache
+/Users/gulchinnl/Projects/Figures/Figures/obj/Debug/net6.0/ref/Figures.dll
+C:/Users/acer/Desktop/New folder/Figures/Figures/bin/Debug/net6.0/Figures.exe
+C:/Users/acer/Desktop/New folder/Figures/Figures/bin/Debug/net6.0/Figures.deps.json
+C:/Users/acer/Desktop/New folder/Figures/Figures/bin/Debug/net6.0/Figures.runtimeconfig.json
+C:/Users/acer/Desktop/New folder/Figures/Figures/bin/Debug/net6.0/Figures.dll
+C:/Users/acer/Desktop/New folder/Figures/Figures/bin/Debug/net6.0/Figures.pdb
+C:/Users/acer/Desktop/New folder/Figures/Figures/obj/Debug/net6.0/FigureApp.csproj.AssemblyReference.cache
+C:/Users/acer/Desktop/New folder/Figures/Figures/obj/Debug/net6.0/FigureApp.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/acer/Desktop/New folder/Figures/Figures/obj/Debug/net6.0/FigureApp.AssemblyInfoInputs.cache
+C:/Users/acer/Desktop/New folder/Figures/Figures/obj/Debug/net6.0/FigureApp.AssemblyInfo.cs
+C:/Users/acer/Desktop/New folder/Figures/Figures/obj/Debug/net6.0/FigureApp.csproj.CoreCompileInputs.cache
+C:/Users/acer/Desktop/New folder/Figures/Figures/obj/Debug/net6.0/Figures.dll
+C:/Users/acer/Desktop/New folder/Figures/Figures/obj/Debug/net6.0/refint/Figures.dll
+C:/Users/acer/Desktop/New folder/Figures/Figures/obj/Debug/net6.0/Figures.pdb
+C:/Users/acer/Desktop/New folder/Figures/Figures/obj/Debug/net6.0/FigureApp.genruntimeconfig.cache
+C:/Users/acer/Desktop/New folder/Figures/Figures/obj/Debug/net6.0/ref/Figures.dll
+C:/Users/acer/Desktop/ftask/Figures/bin/Debug/net6.0/Figures.exe
+C:/Users/acer/Desktop/ftask/Figures/bin/Debug/net6.0/Figures.deps.json
+C:/Users/acer/Desktop/ftask/Figures/bin/Debug/net6.0/Figures.runtimeconfig.json
+C:/Users/acer/Desktop/ftask/Figures/bin/Debug/net6.0/Figures.dll
+C:/Users/acer/Desktop/ftask/Figures/bin/Debug/net6.0/Figures.pdb
+C:/Users/acer/Desktop/ftask/Figures/obj/Debug/net6.0/FigureApp.csproj.AssemblyReference.cache
+C:/Users/acer/Desktop/ftask/Figures/obj/Debug/net6.0/FigureApp.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/acer/Desktop/ftask/Figures/obj/Debug/net6.0/FigureApp.AssemblyInfoInputs.cache
+C:/Users/acer/Desktop/ftask/Figures/obj/Debug/net6.0/FigureApp.AssemblyInfo.cs
+C:/Users/acer/Desktop/ftask/Figures/obj/Debug/net6.0/FigureApp.csproj.CoreCompileInputs.cache
+C:/Users/acer/Desktop/ftask/Figures/obj/Debug/net6.0/Figures.dll
+C:/Users/acer/Desktop/ftask/Figures/obj/Debug/net6.0/refint/Figures.dll
+C:/Users/acer/Desktop/ftask/Figures/obj/Debug/net6.0/Figures.pdb
+C:/Users/acer/Desktop/ftask/Figures/obj/Debug/net6.0/FigureApp.genruntimeconfig.cache
+C:/Users/acer/Desktop/ftask/Figures/obj/Debug/net6.0/ref/Figures.dll
+/Users/gulchinnl/Desktop/ftask/Figures/bin/Debug/net6.0/Figures
+/Users/gulchinnl/Desktop/ftask/Figures/bin/Debug/net6.0/Figures.deps.json
+/Users/gulchinnl/Desktop/ftask/Figures/bin/Debug/net6.0/Figures.runtimeconfig.json
+/Users/gulchinnl/Desktop/ftask/Figures/bin/Debug/net6.0/Figures.dll
+/Users/gulchinnl/Desktop/ftask/Figures/bin/Debug/net6.0/Figures.pdb
+/Users/gulchinnl/Desktop/ftask/Figures/obj/Debug/net6.0/FigureApp.csproj.AssemblyReference.cache
+/Users/gulchinnl/Desktop/ftask/Figures/obj/Debug/net6.0/FigureApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gulchinnl/Desktop/ftask/Figures/obj/Debug/net6.0/FigureApp.AssemblyInfoInputs.cache
+/Users/gulchinnl/Desktop/ftask/Figures/obj/Debug/net6.0/FigureApp.AssemblyInfo.cs
+/Users/gulchinnl/Desktop/ftask/Figures/obj/Debug/net6.0/FigureApp.csproj.CoreCompileInputs.cache
+/Users/gulchinnl/Desktop/ftask/Figures/obj/Debug/net6.0/Figures.dll
+/Users/gulchinnl/Desktop/ftask/Figures/obj/Debug/net6.0/refint/Figures.dll
+/Users/gulchinnl/Desktop/ftask/Figures/obj/Debug/net6.0/Figures.pdb
+/Users/gulchinnl/Desktop/ftask/Figures/obj/Debug/net6.0/FigureApp.genruntimeconfig.cache
+/Users/gulchinnl/Desktop/ftask/Figures/obj/Debug/net6.0/ref/Figures.dll
