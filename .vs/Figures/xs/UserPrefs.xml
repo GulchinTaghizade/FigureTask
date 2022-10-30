@@ -8,7 +8,7 @@
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="Figures/Program.cs">
     <Files>
-      <File FileName="Figures/Program.cs" Line="211" Column="28" />
+      <File FileName="Figures/Program.cs" Line="207" Column="46" />
       <File FileName="Figures/Figure.cs" Line="31" Column="1" />
       <File FileName="Figures/Figures/Circle.cs" Line="9" Column="1" />
       <File FileName="Figures/Figures/Rectangle.cs" Line="13" Column="1" />

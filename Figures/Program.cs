@@ -204,7 +204,7 @@ partial class Program
         //await createStream.DisposeAsync();
         #endregion
 
-        #region XMLSerialization
+        #region XMLSerialization(not working)
         //XmlSerializer mySerializer = new XmlSerializer(typeof(List<Figure>));
         //StreamWriter myWriter = new StreamWriter(path);
         //mySerializer.Serialize(myWriter, figlist);
@@ -225,7 +225,7 @@ partial class Program
         //    }
         //}
 
-        #region BinaryDeserialization
+        #region BinaryDeserialization 
         //Stream openFileStream = File.OpenRead(path);
         //BinaryFormatter deserializer = new BinaryFormatter();
         //List<Figure> figlist = (List<Figure>)deserializer.Deserialize(openFileStream);
@@ -238,7 +238,7 @@ partial class Program
         //    await JsonSerializer.DeserializeAsync<List<Figure>>(openStream);
         #endregion
 
-        #region XMLDeserialization
+        #region XMLDeserialization (not working)
         //var mySerializer = new XmlSerializer(typeof(List<Figure>));
         //using var myFileStream = new FileStream(path, FileMode.Open);
         //var myObject = (List<Figure>)mySerializer.Deserialize(myFileStream);
