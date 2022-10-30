@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Data;
 using System.IO;
 using System.Runtime.CompilerServices;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Text.Json;
+using System.Xml.Serialization;
 using FigureApp;
 using FigureApp.FigureFactory;
 
@@ -202,6 +204,12 @@ partial class Program
         //await createStream.DisposeAsync();
         #endregion
 
+        #region XMLSerialization
+        //XmlSerializer mySerializer = new XmlSerializer(typeof(List<Figure>));
+        //StreamWriter myWriter = new StreamWriter(path);
+        //mySerializer.Serialize(myWriter, figlist);
+        //myWriter.Close();
+        #endregion
     }
 
     static List<Figure> ReadFromFile()
@@ -228,6 +236,12 @@ partial class Program
         //using FileStream openStream = File.OpenRead(path);
         //List<Figure>? figlist =
         //    await JsonSerializer.DeserializeAsync<List<Figure>>(openStream);
+        #endregion
+
+        #region XMLDeserialization
+        //var mySerializer = new XmlSerializer(typeof(List<Figure>));
+        //using var myFileStream = new FileStream(path, FileMode.Open);
+        //var myObject = (List<Figure>)mySerializer.Deserialize(myFileStream);
         #endregion
 
         return figlist;

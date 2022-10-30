@@ -10,6 +10,8 @@ namespace FigureApp
     public class Rectangle:FigureWithSides
     {
 
+
+
         public Rectangle(List<Point> points, List<double> sides = null) :base()
         {
             Sides = sides;

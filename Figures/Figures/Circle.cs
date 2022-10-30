@@ -6,6 +6,7 @@ namespace FigureApp
     public class Circle : Figure
     {
         public double Radius { get; set; }
+
         public Circle(List<Point> points) : base(points)
         {
             FindRadius();

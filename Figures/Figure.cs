@@ -1,4 +1,7 @@
-﻿namespace FigureApp
+﻿using System.IO;
+using System.Xml.Serialization;
+
+namespace FigureApp
 {
     [Serializable()]
     public abstract class Figure
@@ -25,6 +28,7 @@
         public abstract void FindCenter();
         public abstract void MoveFigure(double x, double y);
         public abstract void ScaleFigure(double scale);
+
     }
 }
 

@@ -8,6 +8,7 @@ namespace FigureApp
 
     public class Square:FigureWithSides
     {
+
         public Square(List<Point> points, List<double> sides = null) : base()
         {
             Sides = sides;

@@ -1,7 +1,19 @@
 ﻿<Properties StartupConfiguration="{16C0B253-2A8D-454C-A7D1-436482FF2988}|Default">
+  <MonoDevelop.Ide.ItemProperties.FigureApp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="Figures/Program.cs">
     <Files>
-      <File FileName="Figures/Program.cs" Line="232" Column="1" />
+      <File FileName="Figures/Program.cs" Line="211" Column="28" />
+      <File FileName="Figures/Figure.cs" Line="31" Column="1" />
+      <File FileName="Figures/Figures/Circle.cs" Line="9" Column="1" />
+      <File FileName="Figures/Figures/Rectangle.cs" Line="13" Column="1" />
+      <File FileName="Figures/Figures/Square.cs" Line="11" Column="1" />
+      <File FileName="Figures/Figures/Triangle.cs" Line="8" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,11 +30,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.FigureApp PreferredExecutionTarget="MonoDevelop.Default" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
