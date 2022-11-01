@@ -15,7 +15,10 @@ namespace FigureApp
             FindPerimeter();
             FindCenter();
         }
+        public Triangle()
+        {
 
+        }
         
 
         public override void FindArea()

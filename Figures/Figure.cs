@@ -4,6 +4,12 @@ using System.Xml.Serialization;
 namespace FigureApp
 {
     [Serializable()]
+    [XmlInclude(typeof(Circle))]
+    [XmlInclude(typeof(Rectangle))]
+    [XmlInclude(typeof(Square))]
+    [XmlInclude(typeof(Triangle))]
+    [XmlRoot(Namespace = "FigureApp")]
+
     public abstract class Figure
     {
         public double Area { get; protected set; }

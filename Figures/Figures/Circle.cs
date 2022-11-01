@@ -11,6 +11,10 @@ namespace FigureApp
         {
             FindRadius();
         }
+        public Circle()
+        {
+
+        }
 
         public void FindRadius()
         {

@@ -17,6 +17,10 @@ namespace FigureApp
             FindPerimeter();
             FindCenter();
         }
+        public Square()
+        {
+
+        }
 
         
         public override void FindArea()

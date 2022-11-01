@@ -204,7 +204,7 @@ partial class Program
         //await createStream.DisposeAsync();
         #endregion
 
-        #region XMLSerialization(not working)
+        #region XMLSerialization
         //XmlSerializer mySerializer = new XmlSerializer(typeof(List<Figure>));
         //StreamWriter myWriter = new StreamWriter(path);
         //mySerializer.Serialize(myWriter, figlist);
@@ -214,8 +214,8 @@ partial class Program
 
     static List<Figure> ReadFromFile()
     {
-        Console.WriteLine("Reading saved file");
-        List<Figure> figlist = new List<Figure>();
+        //Console.WriteLine("Reading saved file");
+        //List<Figure> figlist = new List<Figure>();
         //using (var sr = new StreamReader(path))
         //{
         //    while (!sr.EndOfStream)
@@ -232,13 +232,22 @@ partial class Program
         //openFileStream.Close();
         #endregion
 
-        #region JSONDeserialization
+        #region JSONDeserialization(not working)
         //using FileStream openStream = File.OpenRead(path);
-        //List<Figure>? figlist =
-        //    await JsonSerializer.DeserializeAsync<List<Figure>>(openStream);
+        //List<Figure>? figlist = JsonSerializer.Deserialize<List<Figure>>(openStream);
+        //Console.WriteLine(figlist.Count);
+
+        using FileStream openStream = File.OpenRead(path);
+        List<Figure>? figlist =
+             JsonSerializer.Deserialize<List<Figure>>(openStream);
+        foreach (var fig in figlist)
+        {
+            Console.WriteLine($"Area: {fig?.Area}");
+        }
+
         #endregion
 
-        #region XMLDeserialization (not working)
+        #region XMLDeserialization 
         //var mySerializer = new XmlSerializer(typeof(List<Figure>));
         //using var myFileStream = new FileStream(path, FileMode.Open);
         //var myObject = (List<Figure>)mySerializer.Deserialize(myFileStream);
@@ -246,6 +255,7 @@ partial class Program
 
         return figlist;
     }
+
 
 }
 

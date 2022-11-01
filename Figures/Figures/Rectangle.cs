@@ -9,9 +9,6 @@ namespace FigureApp
 
     public class Rectangle:FigureWithSides
     {
-
-
-
         public Rectangle(List<Point> points, List<double> sides = null) :base()
         {
             Sides = sides;
@@ -19,6 +16,10 @@ namespace FigureApp
             FindArea();
             FindPerimeter();
             FindCenter();
+        }
+        public Rectangle()
+        {
+
         }
 
         public override void FindArea()
