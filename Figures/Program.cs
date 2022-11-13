@@ -19,7 +19,7 @@ partial class Program
     const string path = @"../../../figure.txt";
     static int Main(string[] args)
     {
-        int a = 5;
+       
         Menu(Initialize());
         return 0;
     }
