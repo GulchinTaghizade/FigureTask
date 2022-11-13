@@ -19,6 +19,7 @@ partial class Program
     const string path = @"../../../figure.txt";
     static int Main(string[] args)
     {
+        int a = 5;
         Menu(Initialize());
         return 0;
     }
@@ -238,7 +239,7 @@ partial class Program
         //openFileStream.Close();
         #endregion
 
-        #region JSONDeserialization
+        #region JSONDeserialization 
 
         Console.WriteLine("Reading saved file");
         TextReader openFileStream = new StreamReader(path);

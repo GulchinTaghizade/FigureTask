@@ -1,9 +1,4 @@
-﻿<Properties StartupConfiguration="{16C0B253-2A8D-454C-A7D1-436482FF2988}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.FigureApp PreferredExecutionTarget="MonoDevelop.Default" />
+﻿<Properties StartupConfiguration="{16C0B253-2A8D-454C-A7D1-436482FF2988}|Default" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workbench ActiveDocument="Figures/Program.cs">
     <Files>
       <File FileName="Figures/Program.cs" Line="241" Column="36" />
@@ -23,6 +18,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.FigureApp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
