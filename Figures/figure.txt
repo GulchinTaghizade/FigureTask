@@ -1,0 +1,133 @@
+[
+  {
+    "$type": "FigureApp.Square, Figures",
+    "Sides": [
+      5.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "Area": 25.0,
+    "Perimeter": 20.0,
+    "Points": [
+      {
+        "$type": "FigureApp.Point, Figures",
+        "CoordinateX": 0.0,
+        "CoordinateY": 0.0
+      },
+      {
+        "$type": "FigureApp.Point, Figures",
+        "CoordinateX": 0.0,
+        "CoordinateY": 5.0
+      },
+      {
+        "$type": "FigureApp.Point, Figures",
+        "CoordinateX": 5.0,
+        "CoordinateY": 5.0
+      },
+      {
+        "$type": "FigureApp.Point, Figures",
+        "CoordinateX": 5.0,
+        "CoordinateY": 0.0
+      }
+    ],
+    "Center": {
+      "$type": "FigureApp.Point, Figures",
+      "CoordinateX": 2.5,
+      "CoordinateY": 2.5
+    }
+  },
+  {
+    "$type": "FigureApp.Rectangle, Figures",
+    "Sides": [
+      10.0,
+      10.44030650891055,
+      7.615773105863909,
+      7.0
+    ],
+    "Area": 104.40306508910551,
+    "Perimeter": 35.05607961477446,
+    "Points": [
+      {
+        "$type": "FigureApp.Point, Figures",
+        "CoordinateX": 0.0,
+        "CoordinateY": 0.0
+      },
+      {
+        "$type": "FigureApp.Point, Figures",
+        "CoordinateX": 0.0,
+        "CoordinateY": 10.0
+      },
+      {
+        "$type": "FigureApp.Point, Figures",
+        "CoordinateX": 10.0,
+        "CoordinateY": 7.0
+      },
+      {
+        "$type": "FigureApp.Point, Figures",
+        "CoordinateX": 7.0,
+        "CoordinateY": 0.0
+      }
+    ],
+    "Center": {
+      "$type": "FigureApp.Point, Figures",
+      "CoordinateX": 4.25,
+      "CoordinateY": 4.25
+    }
+  },
+  {
+    "$type": "FigureApp.Triangle, Figures",
+    "Sides": [
+      3.0,
+      5.0,
+      4.0
+    ],
+    "Area": 6.0,
+    "Perimeter": 12.0,
+    "Points": [
+      {
+        "$type": "FigureApp.Point, Figures",
+        "CoordinateX": 0.0,
+        "CoordinateY": 0.0
+      },
+      {
+        "$type": "FigureApp.Point, Figures",
+        "CoordinateX": 3.0,
+        "CoordinateY": 0.0
+      },
+      {
+        "$type": "FigureApp.Point, Figures",
+        "CoordinateX": 0.0,
+        "CoordinateY": 4.0
+      }
+    ],
+    "Center": {
+      "$type": "FigureApp.Point, Figures",
+      "CoordinateX": 1.0,
+      "CoordinateY": 1.3333333333333333
+    }
+  },
+  {
+    "$type": "FigureApp.Circle, Figures",
+    "Radius": 10.0,
+    "Area": 0.0,
+    "Perimeter": 0.0,
+    "Points": [
+      {
+        "$type": "FigureApp.Point, Figures",
+        "CoordinateX": 0.0,
+        "CoordinateY": 5.0
+      },
+      {
+        "$type": "FigureApp.Point, Figures",
+        "CoordinateX": 10.0,
+        "CoordinateY": 5.0
+      }
+    ],
+    "Center": {
+      "$type": "FigureApp.Point, Figures",
+      "CoordinateX": 0.0,
+      "CoordinateY": 5.0
+    }
+  }
+]

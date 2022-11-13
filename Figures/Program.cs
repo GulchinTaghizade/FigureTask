@@ -6,9 +6,13 @@ using System.Runtime.CompilerServices;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Text.Json;
+using System.Xml;
 using System.Xml.Serialization;
 using FigureApp;
 using FigureApp.FigureFactory;
+using Newtonsoft.Json;
+using Formatting = Newtonsoft.Json.Formatting;
+using JsonSerializer = Newtonsoft.Json.JsonSerializer;
 
 partial class Program
 {
@@ -199,9 +203,11 @@ partial class Program
         #endregion
 
         #region JSONSerialization
-        //using FileStream createStream = File.Create(path);
-        //await JsonSerializer.SerializeAsync(createStream, figlist);
-        //await createStream.DisposeAsync();
+
+        TextWriter textWriter = new StreamWriter(path);
+        Newtonsoft.Json.JsonSerializer jsonSerializer = Newtonsoft.Json.JsonSerializer.Create(new JsonSerializerSettings { TypeNameHandling = TypeNameHandling.Objects, Formatting = Formatting.Indented });
+        jsonSerializer.Serialize(textWriter, figlist);
+        textWriter.Close();
         #endregion
 
         #region XMLSerialization
@@ -232,18 +238,13 @@ partial class Program
         //openFileStream.Close();
         #endregion
 
-        #region JSONDeserialization(not working)
-        //using FileStream openStream = File.OpenRead(path);
-        //List<Figure>? figlist = JsonSerializer.Deserialize<List<Figure>>(openStream);
-        //Console.WriteLine(figlist.Count);
+        #region JSONDeserialization
 
-        using FileStream openStream = File.OpenRead(path);
-        List<Figure>? figlist =
-             JsonSerializer.Deserialize<List<Figure>>(openStream);
-        foreach (var fig in figlist)
-        {
-            Console.WriteLine($"Area: {fig?.Area}");
-        }
+        Console.WriteLine("Reading saved file");
+        TextReader openFileStream = new StreamReader(path);
+        Newtonsoft.Json.JsonSerializer jsonSerializer = Newtonsoft.Json.JsonSerializer.Create(new JsonSerializerSettings { TypeNameHandling = TypeNameHandling.Objects, Formatting = Formatting.Indented });
+        List<Figure> result = new List<Figure>();
+        result = (List<Figure>)jsonSerializer.Deserialize(openFileStream, result.GetType());
 
         #endregion
 
@@ -253,7 +254,7 @@ partial class Program
         //var myObject = (List<Figure>)mySerializer.Deserialize(myFileStream);
         #endregion
 
-        return figlist;
+        return result;
     }
 
 

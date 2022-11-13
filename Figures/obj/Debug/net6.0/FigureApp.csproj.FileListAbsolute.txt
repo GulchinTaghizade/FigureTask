@@ -73,3 +73,5 @@ C:/Users/acer/Desktop/ftask/Figures/obj/Debug/net6.0/ref/Figures.dll
 /Users/gulchinnl/Projects/FigureTask/Figures/bin/Debug/net6.0/Figures.pdb
 /Users/gulchinnl/Projects/FigureTask/Figures/obj/Debug/net6.0/FigureApp.genruntimeconfig.cache
 /Users/gulchinnl/Projects/FigureTask/Figures/obj/Debug/net6.0/ref/Figures.dll
+/Users/gulchinnl/Projects/FigureTask/Figures/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/gulchinnl/Projects/FigureTask/Figures/obj/Debug/net6.0/FigureApp.csproj.CopyComplete
